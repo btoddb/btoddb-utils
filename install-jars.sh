@@ -8,8 +8,8 @@ pushd tmp-staging > /dev/null
 tar xvfz ../target/btoddb-utils-1.0.0-SNAPSHOT-avro-test.tar.gz > /dev/null
 pushd lib > /dev/null
 
-cp -v * ${AVRO_CLIENT_LIB_DIR}/.
-#cp -v target/btoddb-util*.jar /btoddb/flume-dist/avro-test-client/lib/.
+cp -pv * ${AVRO_CLIENT_LIB_DIR}/.
+#cp -pv target/btoddb-util*.jar /btoddb/flume-dist/avro-test-client/lib/.
 
 popd > /dev/null
 popd > /dev/null
